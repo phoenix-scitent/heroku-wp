@@ -1,0 +1,30 @@
+/*http://careerdevelopment.aaas.org/wp-content/themes/salient-child/css/woocommerce.css */
+
+.woocommerce-page .AAASaddtocart button.button, 
+.woocommerce-page .AAASaddtocart button.single_add_to_cart_button,
+.woocommerce .AAASaddtocart button.single_add_to_cart_button,
+.woocommerce a.button, .woocommerce-page a.button{
+    background-color: #CF142B !important;
+    border: 2px solid #CF142B !important;
+    color: #fff !important;
+    padding: 6px 8px !important;
+    transition: all 1s !important;
+    text-transform: uppercase !important;
+	font-size: 1.1em !important;
+}
+
+
+button:hover,
+button[type="submit"]:hover,
+a.button:hover,
+#ld_course_list .btn-primary:hover,
+#ld_course_list .btn:hover,
+.woocommerce .AAASaddtocart button.button:hover, 
+.woocommerce-page .AAASaddtocart button.button:hover, 
+.woocommerce-page .AAASaddtocart button.single_add_to_cart_button:hover,
+.woocommerce .AAASaddtocart button.single_add_to_cart_button:hover,
+.woocommerce a.button, .woocommerce-page a.button:hover
+{
+    color: #005699 !important;
+    background-color: #fff !important;
+}

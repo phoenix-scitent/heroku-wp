@@ -1,0 +1,909 @@
+ /*
+Theme Name: AAAS - Diagonal
+Theme URI: http: //mysite.com/
+Description: Salient Child Theme developed for the REDESIGNED American Association for the Advancement of Science
+Author: SDiamond for Scitent
+Author URI: http: //mysite.com/
+Template: salient
+Version: 0.2.0
+*/
+/******************************************************************************************/
+
+/*
+
+Color Palette:
+	PRIMARY COLOR: BLUE: #36578C 
+  Secondary: RED #C34E5E - USE SPARINGLY
+  accent: TEAL #5da0a1   text #477f80;
+
+Fellowships   #DEC55D   text #A38D1C  yellow
+Communication #BF8A4F   text #9E6C33  orange
+Classroom     #D0618E   text #bd5981  Pink
+Policy        #C34E5E   text #ad4553  red
+Budget        #839951   text #677d33  green
+Laboratory    #5da0a1   text #477f80  teal
+Academic      #7B79AC   text #4f4f75  purple
+Corporate     #6E605A   text #594e49  brown
+
+FONTS:
+    OPEN SANS
+
+TABLE OF CONTENTS:
+1-resets
+2-universals
+3-Links & Buttons
+4-Header
+5-Menus
+6-Footer
+7-Individual Pages
+8-Modal
+x-Media Queries
+*/
+
+/******************************************************************************************/
+/**1-resets**/
+
+.screen-reader-text{
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+.ascend .container-wrap, 
+.ascend .project-title, 
+body .vc_text_separator div, 
+.carousel-wrap[data-full-width="true"] .carousel-heading, 
+.carousel-wrap span.left-border, 
+.carousel-wrap span.right-border, 
+#page-header-wrap, 
+.page-header-no-bg, 
+#full_width_portfolio .project-title.parallax-effect, 
+.portfolio-items .col, 
+.page-template-template-portfolio-php .portfolio-items .col.span_3, 
+.page-template-template-portfolio-php .portfolio-items .col.span_4
+{
+  background-color:#fff !important;
+}
+#habla_window_div #habla_oplink_a {
+  color: white !important;
+  text-decoration: none;
+}
+body {
+  background-color: #ffffff !important;
+}
+body[data-header-resize="0"] .container-wrap, body[data-header-resize="0"] .project-title {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+.full-width-section{
+  visibility:visible !important;
+}
+.main-content {
+  padding-top:10px !important;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6{
+  color: #36578C !important;
+}
+#page-header-wrap h1{
+  color:#fff;
+}
+
+/**2-universals***************************************************************************/
+.clearboth{
+  clear:both;
+  height:0;
+}
+.nomargin{
+  margin: 0 !important;
+}
+.marginTop40{
+  margin-top:40px;
+}
+.inabox{
+  border: 2px solid #000;
+  padding:6px;
+}
+.center{
+  text-align: center;
+}
+.price{
+  font-size: 18px;
+  line-height: 22px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+}
+.notice {
+  text-align: center;
+  color: black;
+  font-size: 1.75em;
+  line-height: 1.5;
+  padding: 10px;
+}
+.mobileOnly,
+.mobileOnly800{
+  display:none;
+}
+.pull-up { 
+  margin-top: -50px;
+}
+.hideme {
+  display: none;
+}
+/**3-Links & Buttons**********************************************************************/
+
+body a {
+  color: #477f80 !important;
+}
+body .main-content a:hover,
+body .main-content a:focus {
+  text-decoration: underline;
+}
+button,
+button[type="submit"],
+a.button {
+  background-color: #477f80 !important;
+  border: 2px solid #477f80 !important;
+  color: #fff !important;
+  padding: 6px 8px !important;
+  transition: all 1s !important;
+  text-transform: uppercase !important;
+}
+button:hover,
+button:focus,
+button[type="submit"]:hover,
+button[type="submit"]:focus,
+a.button:hover,
+a.button:focus{
+  color: #477f80 !important;
+  background-color: #fff !important;
+  text-decoration: none !important;
+}
+a.nectar-button.large.accent-color.regular-button {
+  color: #fff !important;
+  text-transform: uppercase !important;
+}
+.redButton,
+#ld_course_list .btn-primary,
+#ld_course_list .btn,
+.woocommerce .AAASaddtocart button.button, 
+.woocommerce-page .AAASaddtocart button.button, 
+.woocommerce-page .AAASaddtocart button.single_add_to_cart_button,
+.woocommerce .AAASaddtocart button.single_add_to_cart_button,
+.woocommerce a.button, .woocommerce-page a.button{
+  background-color: #CF142B !important;
+  border: 2px solid #CF142B !important;
+  color: #fff !important;
+  padding: 6px 8px !important;
+  transition: all 1s !important;
+  text-transform: uppercase !important;
+  font-size: 1.1em !important;
+}
+.redButton:hover,
+#ld_course_list .btn-primary:hover,
+#ld_course_list .btn:hover,
+.woocommerce .AAASaddtocart button.button:hover, 
+.woocommerce-page .AAASaddtocart button.button:hover, 
+.woocommerce-page .AAASaddtocart button.single_add_to_cart_button:hover,
+.woocommerce .AAASaddtocart button.single_add_to_cart_button:hover
+{
+  color: #36578C !important;
+  background-color: #fff !important;
+}
+.woocommerce a.button, .woocommerce-page a.button:hover{
+  color:#fff !important;
+}
+.darkBlueBnt{
+  background-color: #2B3B6A !important;
+  color: #fff !important;
+  display: inline-block;
+  font-size: .6em;
+  margin: 0 10px !important;
+  padding: 3px 15px !important;
+  font-weight: 400;
+  text-transform: uppercase !important;
+  position: relative;
+  top: -4px;
+  border: 2px solid #2b3b6a !important;
+}
+.darkBlueBnt:hover{
+  background-color: #fff !important;
+  color: #2B3B6A !important;
+}
+#aaas_submit{
+  background-color: #2B3B6A !important;
+  color: #fff !important;
+  display: inline-block;
+  margin: 0px !important;
+  padding: 3px 15px !important;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase !important;
+  position: relative;
+  top: -4px;
+  border: 2px solid #2b3b6a !important;
+}
+#aaas_submit:hover{
+  background-color: #fff !important;
+  color: #2B3B6A !important;
+}
+.whiteButton {
+  background-color:#fff;
+  display:inline-block;
+  border: 2px solid #fff;
+  padding: 6px 10px;
+  text-transform: uppercase !important;
+
+}
+.whiteButton:hover,
+.whiteButton:focus {
+  background:none;
+  color:#fff !important;
+  text-decoration: none !important;
+}
+/**4-Header*******************************************************************************/
+
+#aaasHeaderLogo{
+  float: left;
+  height: auto;
+  width: 80px;
+  margin-top: 10px;
+}
+header#top #logo img {
+  margin-bottom: 10px;
+}
+header#top .container .row{
+  border-top: 1px solid #aaa !important;
+  padding-top: 10px;
+}
+#header-outer {
+  padding-top: 0 !important;
+  border:none !important;
+  box-shadow: none !important;
+}
+#header-secondary-outer {
+  padding: 5px;
+  border: none !important;
+}
+#header-outer[data-using-secondary="1"] {
+  top: 42px !important;
+}
+#header-outer .row .col.span_9 {
+  margin-top: 15px;
+}
+/*fix header when admin bar is showing*/
+.logged-in #header-outer{
+  padding-top: 28px !important;
+}
+.logged-in #header-outer[data-using-secondary="1"] {
+  top: 64px;
+}
+
+/**5-Menus********************************************************************************/
+
+/*secondary nav*/
+#header-secondary-outer nav > ul > li:last-child,
+#header-secondary-outer nav > ul > li > a{
+}
+#header-secondary-outer nav > ul > li > a >i.fa{
+  color:#59A1A2;
+  padding: 0 5px;
+}
+#header-outer header#top nav > ul > li > a {
+  padding-left: 13px;
+  padding-right: 0px !important;
+}
+
+/*primary nav*/
+
+#header-outer header#top nav > ul > li > a {
+  padding-left: 13px;
+  padding-right: 0px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+header#top nav > ul > li > a:before{
+  content: "|";
+  margin-right: 13px;
+  color: #ddd;
+  font-size: 25px;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+header#top nav > ul > li.noPipe > a::before{
+  content: " " !important;
+}
+header#top nav > ul > li > a:before:hover,
+header#top nav > ul > li > a:before:focus{
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+header#top nav > ul > li:first-child > a:before{
+  content: "" ;
+}
+header#top nav > ul > li:last-child > a{
+  margin-right: 49px;
+}
+.menu-item-has-children>a:after{
+  content: " \f0d7"; 
+  font-family:FontAwesome !important;
+  margin-left:3px;
+}
+
+/* menu cart widget */
+.ascend #header-outer .cart-menu-wrap {
+  top: 25px;
+}
+body.ascend #header-outer .cart-menu {
+  border-left:none !important;
+  padding: 0 !important;
+}
+#header-outer .cart-menu .cart-icon-wrap {
+  left: 20px;
+  margin-left: 13px !important;
+}
+#header-outer .cart-menu:before {
+  content: "|";
+  color: #ddd;
+  font-size: 25px;
+  padding-left: 13px;
+  width: 30px;
+  padding-right: 13px;
+}
+.ascend #header-outer .cart-menu .cart-icon-wrap {
+  /*this is the number in the circle*/
+  width: 57px !important;
+}
+#header-outer .widget_shopping_cart_content{
+  margin-top: 50px;
+}
+.cart-menu .cart-icon-wrap {
+  bottom: 25px; 
+}
+.small-nav .cart-menu .cart-icon-wrap {
+  bottom: 15px; 
+}
+.cart-wrap span {
+  margin-top: 5px;
+}
+#header-outer .widget_shopping_cart a.button{
+  background-color: #CF142B !important;
+}
+#slide-out-widget-area .menu.subview li.menu-item{
+  border-bottom:1px solid rgba(255, 255, 255, .5);
+}
+/*mobile nav*/
+#mobile-menu{
+  background-color: #36578C;
+}
+#mobile-menu ul li a {
+  border-bottom: none;
+  color: #fff !important;
+}
+#mobile-menu ul li a i.fa {
+  margin-right:10px;
+}
+#mobile-menu .borderBottom{
+  border-bottom: 1px solid #aaa;
+}
+header#top #toggle-nav {
+  float: right;
+}
+
+/**6-Footer*******************************************************************************/
+
+#footer-outer #copyright {
+  border: none !important;
+  background-color: #645551 !important;
+}
+.footerlogo{
+	float:right;
+	width:200px !important;
+}
+#footer-outer .row {
+  padding: 35px 0 0;
+  margin-bottom: 0;
+  text-transform:uppercase;
+}
+#footer-outer #copyright{
+  text-align:center;
+  padding-top:0;
+  text-transform:uppercase;
+}
+#footer-outer #copyright .container p{
+  padding-bottom: 20px;
+}
+#footer-outer,
+#footer-outer p{
+  color:#fff;
+  font-size:.8em;
+}
+#footer-outer .widget {
+  margin-bottom: 0px !important;
+}
+#footer-outer a,
+#footer-outer .textwidget a {
+  color:#b2ebe7 !important;
+  font-size:1em;
+  line-height: 1.2;
+}
+#footer-outer a:hover, 
+#footer-outer a:focus, 
+#footer-outer #footer-widgets .textwidget a:hover,
+#footer-outer #footer-widgets .textwidget a:focus,
+#footer-outer .textwidget a:hover,
+#footer-outer .textwidget a:focus {
+  text-decoration: underline;
+  color:#b2ebe7 !important;
+}
+#footer-outer .textwidget .socialfeet a {
+  color: #fff !important;
+  font-size: 2em !important;
+  margin: 0 15px;
+}
+
+
+/**7-Individual Pages*********************************************************************/
+
+/**hide add to cart buttons on home and catalog pages**/
+.home-page .product-wrap a.button,
+.post-type-archive-product  .product-wrap a.button
+{
+  display:none;
+}
+
+/**HOME**/
+
+body.home h2.ls-l{
+  color:#fff !important;
+}
+.homeTagline{
+  color:#36578C;
+  margin-top: 90px;
+  font-size: 3.2em;
+  line-height: 1.3;
+}
+.homeSubTagline{
+  color:#36578C;
+  font-size: 2em !important;
+}
+.heroLink{
+  font-size: 1.3em;
+  color: #fff;
+  background-color: #CF142B;
+  border:2px solid #CF142B;
+  padding: 10px;
+  margin-top: 35px;
+  display: inline-block;
+  text-transform:uppercase;
+}
+.heroLink:hover{
+  color: #36578C;
+  background-color: #fff;
+}
+.homeCoursesTitle h4{
+  font-size:2em !important;
+}
+.homeCTA_h3{
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 6px 0 0;
+}
+.home-page a.darkBlueBnt:nth-child(1){
+  margin-left:30px;
+}
+.woocommerce .products ul li, .woocommerce ul.products li {
+  display: inline-block;
+}
+.homeFeaturedProducts ul.products{
+  display:flex;
+}
+.homeFeaturedProducts ul.products li.product p,
+.homeFeaturedProducts ul.products li.product .memberPriceWrapper,
+.homeFeaturedProducts ul.products li.product .redButton{
+  display:none;
+}
+.homeFeaturedProducts .woocommerce ul.products li.product{
+  height: 350px;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 2px;
+  padding: 10px 20px;
+  margin-right: 2% !important;
+}
+.homeFeaturedProducts .woocommerce ul.products li.featured{
+  border-bottom: 8px solid #888A8D !important;
+}
+.homeFeaturedProducts .woocommerce ul.products li.product .course-catalog-h2{
+  color: #656495;
+  text-align: center;
+  font-size: 23px;
+  line-height: 1.2;
+  position: relative;
+  top: 170px;
+  font-weight:400;
+}
+.homeFeaturedProducts .woocommerce ul.products li.product .button {
+  display: none;
+}
+.homeFeaturedProducts .woocommerce ul.products li.product:before{
+  height:20px;
+  width:20px;
+  display:block;
+}
+.homeFeaturedProducts .woocommerce ul.products li.product .product-wrap:before{
+  height:20px;
+  display:block;
+  text-transform:uppercase;
+  position:relative;
+  bottom:15px;
+  left:45px;
+  font-size: 24px;
+  font-weight: 400;
+}
+img.category-icon{
+  display: inline-block;
+  padding-right: 6px !important;
+}
+.homeFeaturedProducts ul.products li .product-wrap{
+  overflow:visible;
+  width:100%;
+  margin-bottom: 10px;
+  position: relative;
+}
+.homeFeaturedProducts ul.products li .product-wrap img{
+  position: absolute;
+  clip: rect(100px, 375px,300px,0px);
+  top:-90px;
+}
+.ls-container .ls-slide p.ls-l{
+  max-width:700px;
+}
+
+/**Course Sales Pages**/
+
+.AAASaddtocart .cart{
+  max-width: 250px;
+  margin: 0 auto;
+}
+.eachInstructor{
+  float:none;
+  min-height: 150px;
+}
+.instructor_image{
+  max-width:120px;
+  max-height:120px;
+  border-radius:50%;
+
+  float: left;
+  margin-right: 20px;
+}
+.courseOverview{
+  text-align:left;
+  margin-bottom: 35px;
+}
+.courseOverview p{
+  margin-bottom: 1em;
+  padding-bottom: 0px;
+}
+.courseOverview ul {
+  margin: -1em 0 1em 1em;
+}
+.courseOverview ul,
+.woocommerce div[itemprop="description"]
+{
+  margin: 0 0 0 20px;
+}
+.woocommerce div[itemprop="description"] ul li{
+  margin-left: 20px !important;
+}
+.main-content .product ol li {
+  font-weight: 600;
+  line-height: 1.8;
+  margin-left: 40px;
+}
+.AAASaddtocart {
+  margin-top: 20px;
+}
+.woocommerce div.product .AAASaddtocart form.cart .button, 
+.woocommerce-page div.product .AAASaddtocart form.cart .button {
+  margin-left: 0px;
+  width: 100%;
+}
+.wpb_wrapper > div.basePrice {
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+.memberPriceWrap{
+  margin-left: 20px;
+}
+.memberPrice {
+  color: #CF142B;
+}
+.joinAAAS_coursePg {
+  color: #36578C;
+  font-size: 2em;
+  padding: 15px 0;
+}
+.joinAAAS_coursePg a{
+  color: #477f80 !important;
+  margin-left:10px;
+  text-decoration: underline;
+}
+.joinAAAS_coursePg a:hover,
+.joinAAAS_coursePg a:focus{
+ color: #36578C !important;
+}
+.woocommerce div.product form.cart div.quantity {
+  margin: 0 auto 10px;
+  width: 130px !important;
+  position: relative;
+  float:none;
+}
+.cart .quantity input.plus, .cart .quantity input.minus { 
+  background-color: #bde !important; 
+  border: 2px solid #bde !important; 
+}
+.product_meta .sku_wrapper {display:none;}
+.single-product .newTitleWrap .product_title{
+  font-weight: 600;
+}
+.single-product .courseList p{
+  font-weight: 600; 
+  margin-bottom:0; 
+  padding-bottom:10px;
+}
+
+/**course catalog**/
+
+.woocommerce .classic .product-wrap a.button {
+  position: relative !important;
+  bottom: 0  !important;
+}
+.woocommerce .woocommerce-ordering select {
+  display: none;
+}
+.inabox p.price{
+  padding: 0 !important;
+}
+.course-catalog-h2{
+	font-size: 1.5em;
+}
+.woocommerce ul.products li.first.classic, 
+.woocommerce-page ul.products li.first.classic {
+  border-bottom: 1px dotted;
+  padding-bottom: 20px;
+}
+.woocommerce ul.products li.product, 
+.woocommerce-page ul.products li.product{
+  width:100% !important;
+  border-bottom: 1px dotted !important;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+.woocommerce .product-wrap {
+  width: 23%;
+  float: left;
+  margin-right: 2%;
+}
+.woocommerce .course-catalog-h2{
+  line-height: unset;
+  font-size: 1.8em;
+}
+.woocommerce ul.products li.product .price {
+  display: inline;
+}
+.memberPriceWrapper,
+.memberPriceWrapper .price,
+.memberPriceWrapper .price .amount{
+  font-size: 18px;
+  line-height: 22px;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  color: #676767;
+}
+.woocommerce div.product p.price, .woocommerce div.product span.price {
+  color: #005699;
+  font-size: 1.75em;
+}
+.woocommerce .woocommerce-result-count{
+  visibility: hidden;
+}
+.page-id-6382 .product-wrap a.button{
+  display: none !important;
+}
+.catalogSidebar .teamCTA {
+  text-align:center;
+}
+.catalogSidebar .teamCTA h4{
+  color:#4f4f75;
+}
+.catalogSidebar .teamCTA p:first-child {
+  padding-bottom:0;
+}
+
+/**cart**/
+
+.ascend .container-wrap input[type="submit"], 
+.ascend .container-wrap button[type="submit"] {
+  text-transform: uppercase;
+}
+.woocommerce-shipping-fields {
+  display: none;
+}
+
+/** register **/
+
+.scitent_helper{
+  font-size: 1.2em;
+  line-height: 1.4;
+  padding: 20px;
+  float: right;
+}
+.scitent_helper ol  li{
+  padding-top:10px;
+}
+td.product-thumbnail > a{
+  min-width: 90px!important;
+}
+
+/* cart page = .page-id-48 */
+.page-id-48 .woocommerce .quantity, 
+.page-id-48 .woocommerce-page .quantity {
+  min-width: 102px !important;
+}
+.page-id-48 .cart .quantity input.plus, 
+.page-id-48 .cart .quantity input.minus{
+  width: 23px !important;
+}
+.page-id-48 .woocommerce .cart .quantity input.qty{
+  padding:0 !important;
+}
+div[data-style="default"] .toggle h3 a, div[data-style="default"] .toggle h3 {
+  font-size: 18px!important;
+  line-height: 14px!important;
+  font-weight: 600;
+}
+
+/**8-The Modal ***************************************************************************/
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.z-index-5 {
+  z-index: 5 !important;
+}
+
+/**x-Media Queries***********************************************************************/
+
+@media screen and (max-width: 1200px) and (min-width: 1000px) { 
+  .page-id-48 .cart .quantity input.plus, 
+  .page-id-48 .cart .quantity input.minus{
+    display: inline !important;
+  }
+}
+
+@media screen and (min-width: 1000px) { 
+  .page-id-46 .vc_col-sm-12 > div:nth-child(1) > div:nth-child(1) > div:nth-child(1){
+    /* this selector is for the search and filters above the content on course-catalog */
+    display:none;
+  }
+  header#top #toggle-nav {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 1000px) { 
+  .page-id-46 .vc_col-sm-12 > div:nth-child(1) > div:nth-child(1) > div:nth-child(1){
+    /* this selector is for the search and filters above the content on course-catalog */
+    display:block;
+  }
+  #header-secondary-outer {
+    display: none;
+  }
+  #header-outer[data-using-secondary="1"],
+  #header-outer {
+    top: 0px !important;
+  }
+  .footerlogo {
+    float: none;
+  }
+  #footer-outer {
+    text-align: center;
+  }
+  header#top a#mobile-cart-link{
+    display: none !important;
+  }
+  header#top .container .row {
+    border-top: none !important;
+    padding-top: 0px;
+  }
+  header#top .col.span_9 {
+    min-height: 50px !important;
+  }
+  .mobileNoShow{
+    display:none;
+  }
+  .notice {
+    font-size: 1.25em;
+  }
+  .mobileOnly{
+    display:block !important;
+  }
+}
+
+@media screen and (max-width: 800px) { 
+  .mobileOnly800{
+    display:block !important;
+  }
+  .homeFeaturedProducts ul.products li .product-wrap img {
+    clip: rect(100px, 575px,300px,0px);
+  }
+}
+
+@media screen and (max-width: 690px) { 
+  .page-id-48 .woocommerce .quantity, 
+  .page-id-48 .woocommerce-page .quantity {
+    min-width: 102px !important;
+  }
+  .ascend.page-id-48 .cart .quantity input.plus, 
+  .ascend.page-id-48 .cart .quantity input.minus{
+    width: 23px !important;
+  }
+  .page-id-48 .woocommerce .cart .quantity input.qty{
+    padding:0 !important;
+  }
+  .woocommerce table.cart td {
+    padding: 25px 5px !important;
+  }
+  .page-id-48 .woocommerce .product-subtotal {
+    display: block;
+  }
+  .page-id-48 .woocommerce .product-subtotal .amount{
+    padding-top: 70%;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 480px) { 
+  .homeCoursesTitle h4{
+    font-size:1em !important;
+  }
+}

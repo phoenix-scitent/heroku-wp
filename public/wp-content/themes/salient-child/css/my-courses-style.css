@@ -1,0 +1,150 @@
+
+.OoopsNotice{
+  text-align: center;
+  background-color: #fea;
+  border-radius: 20px;
+  padding:30px;
+  font-size: 1.2em;
+}
+.OoopsNotice a:hover{
+  color: #002A41;
+}
+/*LAYOUT*/
+
+.ld_course_grid {
+    width: 100%;
+    min-height:100px;
+    max-height:100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  padding-left: 0;
+    /*background-color:#ddd;*/
+}
+.ld_course_grid div.infoSection{
+  float: left;
+  width:65%;
+  margin-right: 10px;
+  /*border-right: 1px solid #aaa;*/
+  height: 100px;
+}
+.ld_course_grid .btnWrapper{
+  float:right;
+  padding-top: 8px;
+}
+.myCoursesHR{
+  border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    float: none;
+    clear:both;
+}
+
+.if_topic_completed {
+  display: none;
+}
+
+/*BUTTONS*/
+
+.ld_course_grid .caption{
+  float:right;
+  margin-right: 10px;
+}
+.ld_course_grid .claimer-embed{
+}
+a.grassblade_launch_link {
+  display: block;
+  text-align: center;
+  margin: 10px 0px 5px !important;
+  border: 3px solid #005699;
+  background: #005699;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 15px;
+  max-width: 300px;
+}
+a.grassblade_launch_link:hover {
+  background-color: #116699;
+  color: #fff;
+  border: 3px solid #005b82;
+}
+.claimer-bootstrap-styles .btn {
+  transition: none !important;
+  margin: 0 !important;
+  width: 100% !important;
+  text-transform: none !important;
+  border-radius: 0px !important;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+div.ld_course_grid article {
+  border: 2px solid #eee;
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 27%, rgba(240,240,240,1) 85%, rgba(204,204,204,1) 97%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(27%, rgba(255,255,255,1)), color-stop(85%, rgba(240,240,240,1)), color-stop(97%, rgba(204,204,204,1)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 27%, rgba(240,240,240,1) 85%, rgba(204,204,204,1) 97%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 27%, rgba(240,240,240,1) 85%, rgba(204,204,204,1) 97%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 27%, rgba(240,240,240,1) 85%, rgba(204,204,204,1) 97%, rgba(255,255,255,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 27%, rgba(240,240,240,1) 85%, rgba(204,204,204,1) 97%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+}
+
+.wpProQuiz_button, .wpProQuiz_button:hover {
+  margin: 0 !important;
+  padding: 5px 10px !important;
+  border-radius: 1px !important;
+}
+
+/*IMAGE*/
+.ld_course_grid .thumbnail.course img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.ld_course_grid .course_grid_image{
+  height:100px;
+  width:100px;
+  float:left;
+  margin: 15px;
+  background-position: top right;
+  background-color: #999;
+  background-size: cover;
+}
+/*TITLES*/
+.ld_course_grid h3,
+.ld_course_grid .course_grid_title h3 {
+  font-size: 17px !important;
+  line-height: 22px;
+  min-height: 3.3em;
+  margin: 15px 0;
+}
+
+/*PROGRESS*/
+
+.ld_course_grid .progressWrapper{
+  float:left;
+  width:100%;
+}
+.ld_course_grid .percentCompleteLable{
+  margin-left: 10px;
+  margin-right: 5px;
+  font-size: 14px;
+  line-height: 14px;
+}
+.ld_course_grid dd.course_progress{
+  position: relative;
+  top: unset;
+  width: 100%;
+  height: 25px !important;
+  margin: 0 !important;
+  background-color: #c6c6c6 !important;
+}
+.ld_course_grid dd.course_progress div.course_progress_blue {
+    background-color: #7A9B49 !important;
+}
+/*Certificate Modal*/
+.page-id-17 .claimer-bootstrap-styles .modal{
+  /*NOTE: all my-courses pages cloned form CleanStart should have a class .page-id-17 as default*/
+  postition:relative !important;
+}
