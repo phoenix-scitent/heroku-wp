@@ -1,0 +1,37 @@
+<?php
+$random_name = rand();
+$hiden_value = false;
+$is_child_parent = @ $child_parent == 'child';
+$is_child_parent_or = ( @ $child_parent == 'child' || @ $child_parent == 'parent' );
+if ( ! @ $child_parent_depth || @ $child_parent == 'parent' ) {
+    $child_parent_depth = 0;
+}
+$is_first = true;
+if ( @ $terms ) {
+    foreach ( $terms as $term ) { 
+        if ( $is_child_parent && $is_first ) {
+            ?><li class="berocket_child_parent_sample"><ul><?php
+        }
+        ?>
+        <li class="<?php if( @ $hide_o_value && isset($term->count) && $term->count == 0 && ( !$is_child_parent || !$is_first ) ) { echo 'berocket_hide_o_value '; $hiden_value = true; }  if( @ $hide_sel_value && @ br_is_term_selected( $term, true, $is_child_parent_or, $child_parent_depth ) != '' ) { echo 'berocket_hide_sel_value'; $hiden_value = true; } ?>">
+            <span>
+                <input class="<?php echo @ $uo['class']['checkbox_radio'] ?> radio_<?php echo @ $term->term_id ?>_<?php echo @ $term->taxonomy ?>" autocomplete="off"
+                       type='radio' id='radio_<?php echo @ $term->term_id ?>_<?php echo @ $random_name ?>'
+                       style="<?php echo @ $uo['style']['checkbox_radio'] ?>"
+                       data-term_slug='<?php echo @ $term->slug ?>' data-filter_type='<?php echo @ $filter_type ?>'
+                       name='radio_<?php echo @ $term->taxonomy ?>_<?php echo @ $x ?>_<?php echo @ $random_name ?>'
+                        <?php if( @ $term->term_id) { ?>data-term_id='<?php echo @ $term->term_id ?>'<?php } ?> data-operator='<?php echo @ $operator ?>'
+                       data-taxonomy='<?php echo @ $term->taxonomy ?>'
+                       <?php echo @ br_is_term_selected( $term, true, $is_child_parent_or, $child_parent_depth ); ?> />
+                <label data-for='radio_<?php echo @ $term->term_id ?>_<?php echo @ $term->taxonomy ?>' style="<?php echo @ $uo['style']['label'] ?>"
+                       class="berocket_label_widgets<?php if( br_is_term_selected( $term, true, $is_child_parent_or, $child_parent_depth ) != '') echo ' berocket_checked'; ?>"> <?php echo ( ( @ $icon_before_value ) ? ( ( substr( $icon_before_value, 0, 3) == 'fa-' ) ? '<i class="fa '.$icon_before_value.'"></i>' : '<i class="fa"><img class="berocket_widget_icon" src="'.$icon_before_value.'" alt=""></i>' ) : '' ) . @ $term->name . ( ( @ $show_product_count_per_attr ) ? ' <span class="berocket_aapf_count">' . $term->count . '</span>' : '' ) . ( ( @ $icon_after_value ) ? ( ( substr( $icon_after_value, 0, 3) == 'fa-' ) ? '<i class="fa '.$icon_after_value.'"></i>' : '<i class="fa"><img class="berocket_widget_icon" src="'.$icon_after_value.'" alt=""></i>' ) : '' ) ?></label>
+            </span>
+        </li>
+    <?php 
+        if ( $is_child_parent && $is_first ) {
+            ?></ul></li><?php
+            $is_first = false;
+        }
+    } ?>
+    <li class="berocket_widget_show_values"<?php if( !$hiden_value ) echo 'style="display: none;"' ?>><?php _e('Show value(s)', BeRocket_AJAX_domain) ?><span class="show_button"></span></li>
+<?php } ?>

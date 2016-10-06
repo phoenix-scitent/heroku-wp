@@ -1,0 +1,79 @@
+/**
+ * groups_notifications_admin.css
+ * 
+ * Copyright (c) "kento" Karim Rahimpur www.itthinx.com
+ * 
+ * This code is provided subject to the license granted.
+ * Unauthorized use and distribution is prohibited.
+ * See COPYRIGHT.txt and LICENSE.txt
+ *
+ * This code is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * 
+ * This header and all notices must be kept intact.
+ * 
+ * @author Karim Rahimpur
+ * @package groups-notifications
+ * @since groups-notifications 1.0.0
+ */
+
+.groups-notifications-overview,
+.groups-notifications-settings {
+	margin-right: 1em;
+}
+
+.panel {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 0 1em 1em 1em;
+}
+.notification {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 0 1em 1em 1em;
+	margin-bottom: 1em;
+	background-color: #eee;
+}
+.notification input[type="text"],
+.notification textarea {
+	width: 100%;
+}
+.notification textarea {
+	min-height: 100px;
+}
+.notification .check {
+	margin-bottom: 1em;
+}
+.notification span.title {
+	margin-top: 1em;
+	display: block;
+	font-weight: bold;
+}
+.notification .defaults pre {
+	background-color: #f0f0f0;
+	padding: 2px;
+	border: 1px solid #e0e0e0;
+	border-radius: 3px;
+}
+
+.save {
+	padding: 1em 0;
+}
+
+.groups-notifications-overview .filters .filter {
+	float: none;
+	margin: 4px;
+}
+
+.groups-notifications-overview .filters label.filter {
+	padding-right: 0.62em;
+}
+.groups-notifications-overview .filters input.filter {
+	margin-right: 2em;
+}
+
+.groups-notifications-overview .tooltip {
+	cursor:help;
+	border-bottom: 1px dotted #999;
+}

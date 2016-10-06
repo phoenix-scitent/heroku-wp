@@ -1,0 +1,22 @@
+Groups Notifications
+
+Changelog
+
+* 1.1.1
+
+  - fixed : notification when a user has left a group procedure when user is
+            deleted cannot be applied
+
+* 1.1.0
+
+  - fixed HTML mail
+  - SMTP options added
+
+* 1.0.1
+
+  - stripping slashes from subject and message
+
+* 1.0.0
+
+  - initial release
+
