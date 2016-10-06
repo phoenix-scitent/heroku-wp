@@ -1,0 +1,2102 @@
+06-07-2016 @ 14:50:54 - customers request: Array
+(
+    [email] => echang@scitent.com
+    [description] => Eric Chang
+)
+
+06-07-2016 @ 14:50:54 - customers/cus_8b1KjF9iWEhjPg/sources request: Array
+(
+    [source] => tok_18JpHsDpk0ZqXzGbyBqK4XgV
+)
+
+06-07-2016 @ 14:51:26 - customers/cus_8b1KjF9iWEhjPg/sources request: Array
+(
+    [source] => tok_18JpHsDpk0ZqXzGbIEbsGTi2
+)
+
+06-07-2016 @ 14:52:40 - customers/cus_8b1KjF9iWEhjPg/sources request: Array
+(
+    [source] => tok_18JpHsDpk0ZqXzGbIEbsGTi2
+)
+
+06-07-2016 @ 14:52:40 - Error: You cannot use a Stripe token more than once: tok_18JpHsDpk0ZqXzGbIEbsGTi2.
+06-07-2016 @ 14:52:41 - customers/cus_8b1KjF9iWEhjPg/sources request: Array
+(
+    [limit] => 100
+)
+
+06-07-2016 @ 14:53:08 - customers/cus_8b1KjF9iWEhjPg/sources request: Array
+(
+    [source] => tok_18JpHsDpk0ZqXzGbIEbsGTi2
+)
+
+06-07-2016 @ 14:53:08 - Error: You cannot use a Stripe token more than once: tok_18JpHsDpk0ZqXzGbIEbsGTi2.
+06-07-2016 @ 15:02:48 - Info: Begin processing payment for order 6858 for the amount of 59
+06-07-2016 @ 15:02:48 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 5900
+    [description] => AAAS Staging - Order 6858
+    [capture] => true
+    [expand[]] => balance_transaction
+    [customer] => cus_8b1KjF9iWEhjPg
+    [source] => card_18JpHsDpk0ZqXzGbn7yPxCrO
+)
+
+06-07-2016 @ 15:02:49 - Processing response: stdClass Object
+(
+    [id] => ch_18JpTRDpk0ZqXzGbKTPyxmp1
+    [object] => charge
+    [amount] => 5900
+    [amount_refunded] => 0
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_18JpTRDpk0ZqXzGbbHnZdhNP
+            [object] => balance_transaction
+            [amount] => 5900
+            [available_on] => 1465430400
+            [created] => 1465326169
+            [currency] => usd
+            [description] => AAAS Staging - Order 6858
+            [fee] => 201
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 201
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 5699
+            [source] => ch_18JpTRDpk0ZqXzGbKTPyxmp1
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_18JpTRDpk0ZqXzGbKTPyxmp1
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1465326169
+    [currency] => usd
+    [customer] => cus_8b1KjF9iWEhjPg
+    [description] => AAAS Staging - Order 6858
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_18JpTRDpk0ZqXzGbKTPyxmp1/refunds
+        )
+
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_18JpHsDpk0ZqXzGbn7yPxCrO
+            [object] => card
+            [address_city] => Charlottesville
+            [address_country] => US
+            [address_line1] => 400 Preston Ave Suite 300
+            [address_line1_check] => pass
+            [address_line2] => 
+            [address_state] => VA
+            [address_zip] => 22903
+            [address_zip_check] => pass
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_8b1KjF9iWEhjPg
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 10
+            [exp_year] => 2020
+            [fingerprint] => JKGYOJFyFzY6bC5y
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => eric chang
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+06-07-2016 @ 15:02:51 - Successful charge: ch_18JpTRDpk0ZqXzGbKTPyxmp1
+06-07-2016 @ 17:05:16 - customers request: Array
+(
+    [email] => jcondi@scitent.com
+    [description] => John Condi
+)
+
+06-07-2016 @ 17:05:17 - customers/cus_8b3UfnwnY4dwBY/sources request: Array
+(
+    [source] => tok_18JrNsDpk0ZqXzGbpOfJtIca
+)
+
+06-07-2016 @ 17:05:37 - customers/cus_8b3UfnwnY4dwBY/sources request: Array
+(
+    [limit] => 100
+)
+
+06-07-2016 @ 17:05:52 - Info: Begin processing payment for order 6860 for the amount of 59
+06-07-2016 @ 17:05:52 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 5900
+    [description] => AAAS Staging - Order 6860
+    [capture] => true
+    [expand[]] => balance_transaction
+    [customer] => cus_8b3UfnwnY4dwBY
+    [source] => card_18JrNsDpk0ZqXzGbLYX21jxb
+)
+
+06-07-2016 @ 17:05:53 - Processing response: stdClass Object
+(
+    [id] => ch_18JrOWDpk0ZqXzGbQmdjDT3I
+    [object] => charge
+    [amount] => 5900
+    [amount_refunded] => 0
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_18JrOWDpk0ZqXzGbQAMxEyIv
+            [object] => balance_transaction
+            [amount] => 5900
+            [available_on] => 1465430400
+            [created] => 1465333552
+            [currency] => usd
+            [description] => AAAS Staging - Order 6860
+            [fee] => 201
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 201
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 5699
+            [source] => ch_18JrOWDpk0ZqXzGbQmdjDT3I
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_18JrOWDpk0ZqXzGbQmdjDT3I
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1465333552
+    [currency] => usd
+    [customer] => cus_8b3UfnwnY4dwBY
+    [description] => AAAS Staging - Order 6860
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_18JrOWDpk0ZqXzGbQmdjDT3I/refunds
+        )
+
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_18JrNsDpk0ZqXzGbLYX21jxb
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_8b3UfnwnY4dwBY
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 3
+            [exp_year] => 2019
+            [fingerprint] => JKGYOJFyFzY6bC5y
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => jcondi@scitent.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+06-07-2016 @ 17:05:54 - Successful charge: ch_18JrOWDpk0ZqXzGbQmdjDT3I
+06-08-2016 @ 10:10:50 - customers request: Array
+(
+    [email] => june8test@dispostable.com
+    [description] => june8test@dispostable.com
+)
+
+06-08-2016 @ 10:10:50 - customers/cus_8bK2M0Uz4ZIo4Z/sources request: Array
+(
+    [source] => tok_18K7OLDpk0ZqXzGbdmEkkxof
+)
+
+06-08-2016 @ 10:15:07 - customers/cus_8bK2M0Uz4ZIo4Z/sources request: Array
+(
+    [source] => tok_18K7OLDpk0ZqXzGbdmEkkxof
+)
+
+06-08-2016 @ 10:15:08 - Error: You cannot use a Stripe token more than once: tok_18K7OLDpk0ZqXzGbdmEkkxof.
+06-08-2016 @ 10:15:08 - customers/cus_8bK2M0Uz4ZIo4Z/sources request: Array
+(
+    [limit] => 100
+)
+
+06-08-2016 @ 10:17:54 - customers request: Array
+(
+    [email] => june8tester@dispostable.com
+    [description] => june8tester@dispostable.com
+)
+
+06-08-2016 @ 10:17:55 - customers/cus_8bK9gms1Xt88Cz/sources request: Array
+(
+    [source] => tok_18K7VCDpk0ZqXzGbB7jqdtF5
+)
+
+06-08-2016 @ 10:29:55 - customers/cus_8bK9gms1Xt88Cz/sources request: Array
+(
+    [source] => tok_18K7VCDpk0ZqXzGbB7jqdtF5
+)
+
+06-08-2016 @ 10:29:55 - Error: You cannot use a Stripe token more than once: tok_18K7VCDpk0ZqXzGbB7jqdtF5.
+06-08-2016 @ 10:29:56 - customers/cus_8bK9gms1Xt88Cz/sources request: Array
+(
+    [limit] => 100
+)
+
+06-08-2016 @ 10:34:18 - customers request: Array
+(
+    [email] => june8@dispostable.com
+    [description] => june8@dispostable.com
+)
+
+06-08-2016 @ 10:34:19 - customers/cus_8bKPoxhPbUbH6e/sources request: Array
+(
+    [source] => tok_18K7l7Dpk0ZqXzGbx4VBOaS0
+)
+
+06-08-2016 @ 11:14:04 - customers request: Array
+(
+    [email] => june8texx@dispostable.com
+    [description] => june8texx@dispostable.com
+)
+
+06-08-2016 @ 11:14:05 - customers/cus_8bL33ZsxFLaQHc/sources request: Array
+(
+    [source] => tok_18K8NbDpk0ZqXzGbQnfoBTh4
+)
+
+06-08-2016 @ 11:38:28 - customers request: Array
+(
+    [email] => shaytest1@dispostable.com
+    [description] => shaytest1@dispostable.com
+)
+
+06-08-2016 @ 11:38:29 - customers/cus_8bLSnLDjgwfqSB/sources request: Array
+(
+    [source] => tok_18K8lDDpk0ZqXzGbgE1Zi699
+)
+
+06-08-2016 @ 11:38:30 - Info: Begin processing payment for order 6869 for the amount of 59
+06-08-2016 @ 11:38:30 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 5900
+    [description] => AAAS Staging - Order 6869
+    [capture] => true
+    [expand[]] => balance_transaction
+    [customer] => cus_8bLSnLDjgwfqSB
+    [source] => card_18K8lDDpk0ZqXzGbeslzXND8
+)
+
+06-08-2016 @ 11:38:31 - Processing response: stdClass Object
+(
+    [id] => ch_18K8lHDpk0ZqXzGbje4rDf7M
+    [object] => charge
+    [amount] => 5900
+    [amount_refunded] => 0
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_18K8lHDpk0ZqXzGbXUWzqgeU
+            [object] => balance_transaction
+            [amount] => 5900
+            [available_on] => 1465516800
+            [created] => 1465400311
+            [currency] => usd
+            [description] => AAAS Staging - Order 6869
+            [fee] => 201
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 201
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 5699
+            [source] => ch_18K8lHDpk0ZqXzGbje4rDf7M
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_18K8lHDpk0ZqXzGbje4rDf7M
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1465400311
+    [currency] => usd
+    [customer] => cus_8bLSnLDjgwfqSB
+    [description] => AAAS Staging - Order 6869
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_18K8lHDpk0ZqXzGbje4rDf7M/refunds
+        )
+
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_18K8lDDpk0ZqXzGbeslzXND8
+            [object] => card
+            [address_city] => Charlottesville
+            [address_country] => US
+            [address_line1] => 400 Preston
+            [address_line1_check] => pass
+            [address_line2] => 
+            [address_state] => VA
+            [address_zip] => 22903
+            [address_zip_check] => pass
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_8bLSnLDjgwfqSB
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 2
+            [exp_year] => 2018
+            [fingerprint] => JKGYOJFyFzY6bC5y
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => shay test
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+06-08-2016 @ 11:38:33 - Successful charge: ch_18K8lHDpk0ZqXzGbje4rDf7M
+06-08-2016 @ 12:25:51 - customers request: Array
+(
+    [email] => 68test@dispostable.com
+    [description] => 68test@dispostable.com
+)
+
+06-08-2016 @ 12:25:52 - customers/cus_8bMDkyNuYVx1p4/sources request: Array
+(
+    [source] => tok_18K9V4Dpk0ZqXzGbo2lc9M1L
+)
+
+06-08-2016 @ 12:25:53 - Info: Begin processing payment for order 6870 for the amount of 59
+06-08-2016 @ 12:25:53 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 5900
+    [description] => AAAS Staging - Order 6870
+    [capture] => true
+    [expand[]] => balance_transaction
+    [customer] => cus_8bMDkyNuYVx1p4
+    [source] => card_18K9V4Dpk0ZqXzGbVjPDHZpB
+)
+
+06-08-2016 @ 12:25:53 - Processing response: stdClass Object
+(
+    [id] => ch_18K9V7Dpk0ZqXzGbbd8K7HH9
+    [object] => charge
+    [amount] => 5900
+    [amount_refunded] => 0
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_18K9V7Dpk0ZqXzGbonN2A8ey
+            [object] => balance_transaction
+            [amount] => 5900
+            [available_on] => 1465516800
+            [created] => 1465403153
+            [currency] => usd
+            [description] => AAAS Staging - Order 6870
+            [fee] => 201
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 201
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 5699
+            [source] => ch_18K9V7Dpk0ZqXzGbbd8K7HH9
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_18K9V7Dpk0ZqXzGbbd8K7HH9
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1465403153
+    [currency] => usd
+    [customer] => cus_8bMDkyNuYVx1p4
+    [description] => AAAS Staging - Order 6870
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_18K9V7Dpk0ZqXzGbbd8K7HH9/refunds
+        )
+
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_18K9V4Dpk0ZqXzGbVjPDHZpB
+            [object] => card
+            [address_city] => Charlottesville
+            [address_country] => US
+            [address_line1] => 400 Preston Ave Suite 300
+            [address_line1_check] => pass
+            [address_line2] => 
+            [address_state] => VA
+            [address_zip] => 22903
+            [address_zip_check] => pass
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_8bMDkyNuYVx1p4
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 10
+            [exp_year] => 2018
+            [fingerprint] => JKGYOJFyFzY6bC5y
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => Eric Chang
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+06-08-2016 @ 12:25:55 - Successful charge: ch_18K9V7Dpk0ZqXzGbbd8K7HH9
+06-09-2016 @ 21:42:50 - customers request: Array
+(
+    [email] => tjohnson@scitent.com
+    [description] => Tim Johnson
+)
+
+06-09-2016 @ 21:42:50 - customers/cus_8bsQjAHEAl7ejN/sources request: Array
+(
+    [source] => tok_18KefbDpk0ZqXzGbSPfuy07d
+)
+
+06-09-2016 @ 21:42:51 - Info: Begin processing payment for order 6874 for the amount of 59
+06-09-2016 @ 21:42:51 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 5900
+    [description] => AAAS Staging - Order 6874
+    [capture] => true
+    [expand[]] => balance_transaction
+    [customer] => cus_8bsQjAHEAl7ejN
+    [source] => card_18KefbDpk0ZqXzGbgaqaD93A
+)
+
+06-09-2016 @ 21:42:52 - Processing response: stdClass Object
+(
+    [id] => ch_18KefgDpk0ZqXzGbU4WIcZf4
+    [object] => charge
+    [amount] => 5900
+    [amount_refunded] => 0
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_18KefgDpk0ZqXzGbWe70dCo4
+            [object] => balance_transaction
+            [amount] => 5900
+            [available_on] => 1465862400
+            [created] => 1465522972
+            [currency] => usd
+            [description] => AAAS Staging - Order 6874
+            [fee] => 201
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 201
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 5699
+            [source] => ch_18KefgDpk0ZqXzGbU4WIcZf4
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_18KefgDpk0ZqXzGbU4WIcZf4
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1465522972
+    [currency] => usd
+    [customer] => cus_8bsQjAHEAl7ejN
+    [description] => AAAS Staging - Order 6874
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_18KefgDpk0ZqXzGbU4WIcZf4/refunds
+        )
+
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_18KefbDpk0ZqXzGbgaqaD93A
+            [object] => card
+            [address_city] => Charlottesville
+            [address_country] => US
+            [address_line1] => 1033 Still Meadow Xing
+            [address_line1_check] => pass
+            [address_line2] => 
+            [address_state] => VA
+            [address_zip] => 22901
+            [address_zip_check] => pass
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_8bsQjAHEAl7ejN
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 4
+            [exp_year] => 2020
+            [fingerprint] => JKGYOJFyFzY6bC5y
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => Timothy Johnson
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+06-09-2016 @ 21:42:57 - Successful charge: ch_18KefgDpk0ZqXzGbU4WIcZf4
+06-09-2016 @ 21:43:23 - customers/cus_8bsQjAHEAl7ejN/sources request: Array
+(
+    [limit] => 100
+)
+
+08-12-2016 @ 15:35:44 - customers/cus_8AhBZgeKrMLzi8/sources request: Array
+(
+    [limit] => 100
+)
+
+08-12-2016 @ 15:35:56 - Info: Begin processing payment for order 6980 for the amount of 1
+08-12-2016 @ 15:35:56 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 100
+    [description] => AAAS Staging - Order 6980
+    [capture] => true
+    [expand[]] => balance_transaction
+    [customer] => cus_8AhBZgeKrMLzi8
+    [source] => card_17uLnQDpk0ZqXzGb4uUcmXMq
+)
+
+08-12-2016 @ 15:35:56 - Processing response: stdClass Object
+(
+    [id] => ch_18hlRgDpk0ZqXzGbs7j3sL8D
+    [object] => charge
+    [amount] => 100
+    [amount_refunded] => 0
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_18hlRgDpk0ZqXzGbdMAT5FVn
+            [object] => balance_transaction
+            [amount] => 100
+            [available_on] => 1471305600
+            [created] => 1471030556
+            [currency] => usd
+            [description] => AAAS Staging - Order 6980
+            [fee] => 33
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 33
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 67
+            [source] => ch_18hlRgDpk0ZqXzGbs7j3sL8D
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_18hlRgDpk0ZqXzGbs7j3sL8D
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1471030556
+    [currency] => usd
+    [customer] => cus_8AhBZgeKrMLzi8
+    [description] => AAAS Staging - Order 6980
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_18hlRgDpk0ZqXzGbs7j3sL8D/refunds
+        )
+
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_17uLnQDpk0ZqXzGb4uUcmXMq
+            [object] => card
+            [address_city] => Charlottesville
+            [address_country] => US
+            [address_line1] => 400 Preston Ave
+            [address_line1_check] => pass
+            [address_line2] => Suite 300
+            [address_state] => VA
+            [address_zip] => 22903
+            [address_zip_check] => pass
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_8AhBZgeKrMLzi8
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 1
+            [exp_year] => 2017
+            [fingerprint] => JKGYOJFyFzY6bC5y
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => Brian Wiltz
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+08-12-2016 @ 15:35:58 - Successful charge: ch_18hlRgDpk0ZqXzGbs7j3sL8D
+09-02-2016 @ 12:27:42 - customers request: Array
+(
+    [email] => sep2test@dispostable.com
+    [description] => sep2test@dispostable.com
+)
+
+09-02-2016 @ 12:27:43 - customers/cus_97ZfI16uhSDQHp/sources request: Array
+(
+    [source] => tok_18pKW1Dpk0ZqXzGbf8DHwaQt
+)
+
+09-02-2016 @ 12:27:43 - Info: Begin processing payment for order 7054 for the amount of 4788
+09-02-2016 @ 12:27:43 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 478800
+    [description] => AAAS Staging - Order 7054
+    [capture] => true
+    [expand[]] => balance_transaction
+    [customer] => cus_97ZfI16uhSDQHp
+    [source] => card_18pKW1Dpk0ZqXzGbr3rUrGgB
+)
+
+09-02-2016 @ 12:27:44 - Processing response: stdClass Object
+(
+    [id] => ch_18pKW4Dpk0ZqXzGb53mKhgpX
+    [object] => charge
+    [amount] => 478800
+    [amount_refunded] => 0
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_18pKW4Dpk0ZqXzGbRHbzB5RZ
+            [object] => balance_transaction
+            [amount] => 478800
+            [available_on] => 1473206400
+            [created] => 1472833664
+            [currency] => usd
+            [description] => AAAS Staging - Order 7054
+            [fee] => 13915
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 13915
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 464885
+            [source] => ch_18pKW4Dpk0ZqXzGb53mKhgpX
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_18pKW4Dpk0ZqXzGb53mKhgpX
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1472833664
+    [currency] => usd
+    [customer] => cus_97ZfI16uhSDQHp
+    [description] => AAAS Staging - Order 7054
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_18pKW4Dpk0ZqXzGb53mKhgpX/refunds
+        )
+
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_18pKW1Dpk0ZqXzGbr3rUrGgB
+            [object] => card
+            [address_city] => ch
+            [address_country] => US
+            [address_line1] => 400 Preston Ave Suite 300
+            [address_line1_check] => pass
+            [address_line2] => 
+            [address_state] => VA
+            [address_zip] => 22903
+            [address_zip_check] => pass
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_97ZfI16uhSDQHp
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 9
+            [exp_year] => 2020
+            [fingerprint] => JKGYOJFyFzY6bC5y
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => Eric Chang
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+09-02-2016 @ 12:27:45 - Successful charge: ch_18pKW4Dpk0ZqXzGb53mKhgpX
+09-13-2016 @ 12:52:12 - customers/cus_8axE2dASlJvTXB/sources request: Array
+(
+    [limit] => 100
+)
+
+09-13-2016 @ 12:52:12 - customers/cus_8axE2dASlJvTXB request: Array
+(
+    [default_source] => card_18JlJiDpk0ZqXzGbn0K0KeDN
+)
+
+09-13-2016 @ 12:52:17 - customers/cus_8axE2dASlJvTXB/sources request: Array
+(
+    [limit] => 100
+)
+
+09-13-2016 @ 12:52:48 - Info: Begin processing payment for order 7063 for the amount of 39
+09-13-2016 @ 12:52:48 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 3900
+    [description] => AAAS Staging - Order 7063
+    [capture] => true
+    [expand[]] => balance_transaction
+    [customer] => cus_8axE2dASlJvTXB
+    [source] => card_18JlJiDpk0ZqXzGbn0K0KeDN
+)
+
+09-13-2016 @ 12:52:49 - Processing response: stdClass Object
+(
+    [id] => ch_18tK9MDpk0ZqXzGbUKGRXNvu
+    [object] => charge
+    [amount] => 3900
+    [amount_refunded] => 0
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_18tK9MDpk0ZqXzGbxiBAvw18
+            [object] => balance_transaction
+            [amount] => 3900
+            [available_on] => 1473897600
+            [created] => 1473785568
+            [currency] => usd
+            [description] => AAAS Staging - Order 7063
+            [fee] => 143
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 143
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 3757
+            [source] => ch_18tK9MDpk0ZqXzGbUKGRXNvu
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_18tK9MDpk0ZqXzGbUKGRXNvu
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1473785568
+    [currency] => usd
+    [customer] => cus_8axE2dASlJvTXB
+    [description] => AAAS Staging - Order 7063
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_18tK9MDpk0ZqXzGbUKGRXNvu/refunds
+        )
+
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_18JlJiDpk0ZqXzGbn0K0KeDN
+            [object] => card
+            [address_city] => 400 preston
+            [address_country] => US
+            [address_line1] => 123
+            [address_line1_check] => pass
+            [address_line2] => 
+            [address_state] => VA
+            [address_zip] => 12345
+            [address_zip_check] => pass
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_8axE2dASlJvTXB
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 8
+            [exp_year] => 2020
+            [fingerprint] => JKGYOJFyFzY6bC5y
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => katy mullin
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+09-13-2016 @ 12:52:50 - Successful charge: ch_18tK9MDpk0ZqXzGbUKGRXNvu
+09-14-2016 @ 11:48:03 - Info: Begin processing payment for order 7069 for the amount of 399
+09-14-2016 @ 11:48:03 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 39900
+    [description] => AAAS Staging - Order 7069
+    [capture] => true
+    [expand[]] => balance_transaction
+    [customer] => cus_8axE2dASlJvTXB
+    [source] => card_18JlJiDpk0ZqXzGbn0K0KeDN
+)
+
+09-14-2016 @ 11:48:04 - Processing response: stdClass Object
+(
+    [id] => ch_18tfcGDpk0ZqXzGbLadvQzTW
+    [object] => charge
+    [amount] => 39900
+    [amount_refunded] => 0
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_18tfcGDpk0ZqXzGbxRw5JNAo
+            [object] => balance_transaction
+            [amount] => 39900
+            [available_on] => 1473984000
+            [created] => 1473868084
+            [currency] => usd
+            [description] => AAAS Staging - Order 7069
+            [fee] => 1187
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 1187
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 38713
+            [source] => ch_18tfcGDpk0ZqXzGbLadvQzTW
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_18tfcGDpk0ZqXzGbLadvQzTW
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1473868084
+    [currency] => usd
+    [customer] => cus_8axE2dASlJvTXB
+    [description] => AAAS Staging - Order 7069
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_18tfcGDpk0ZqXzGbLadvQzTW/refunds
+        )
+
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_18JlJiDpk0ZqXzGbn0K0KeDN
+            [object] => card
+            [address_city] => 400 preston
+            [address_country] => US
+            [address_line1] => 123
+            [address_line1_check] => pass
+            [address_line2] => 
+            [address_state] => VA
+            [address_zip] => 12345
+            [address_zip_check] => pass
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_8axE2dASlJvTXB
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 8
+            [exp_year] => 2020
+            [fingerprint] => JKGYOJFyFzY6bC5y
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => katy mullin
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+09-14-2016 @ 11:48:06 - Successful charge: ch_18tfcGDpk0ZqXzGbLadvQzTW
+09-27-2016 @ 14:48:06 - customers/cus_8bsQjAHEAl7ejN/sources request: Array
+(
+    [limit] => 100
+)
+
+09-27-2016 @ 14:48:07 - customers/cus_8bsQjAHEAl7ejN request: Array
+(
+    [default_source] => card_18KefbDpk0ZqXzGbgaqaD93A
+)
+
+09-27-2016 @ 14:48:10 - customers/cus_8bsQjAHEAl7ejN/sources request: Array
+(
+    [limit] => 100
+)
+
+09-27-2016 @ 14:48:50 - Info: Begin processing payment for order 7116 for the amount of 78
+09-27-2016 @ 14:48:50 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 7800
+    [description] => AAAS Staging - Order 7116
+    [capture] => true
+    [expand[]] => balance_transaction
+    [customer] => cus_8bsQjAHEAl7ejN
+    [source] => card_18KefbDpk0ZqXzGbgaqaD93A
+)
+
+09-27-2016 @ 14:48:51 - Processing response: stdClass Object
+(
+    [id] => ch_18yQdKDpk0ZqXzGbPCqiO2Gq
+    [object] => charge
+    [amount] => 7800
+    [amount_refunded] => 0
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_18yQdLDpk0ZqXzGbi5J3B4i0
+            [object] => balance_transaction
+            [amount] => 7800
+            [available_on] => 1475107200
+            [created] => 1475002130
+            [currency] => usd
+            [description] => AAAS Staging - Order 7116
+            [fee] => 256
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 256
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 7544
+            [source] => ch_18yQdKDpk0ZqXzGbPCqiO2Gq
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_18yQdKDpk0ZqXzGbPCqiO2Gq
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1475002130
+    [currency] => usd
+    [customer] => cus_8bsQjAHEAl7ejN
+    [description] => AAAS Staging - Order 7116
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_18yQdKDpk0ZqXzGbPCqiO2Gq/refunds
+        )
+
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_18KefbDpk0ZqXzGbgaqaD93A
+            [object] => card
+            [address_city] => Charlottesville
+            [address_country] => US
+            [address_line1] => 1033 Still Meadow Xing
+            [address_line1_check] => pass
+            [address_line2] => 
+            [address_state] => VA
+            [address_zip] => 22901
+            [address_zip_check] => pass
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_8bsQjAHEAl7ejN
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 4
+            [exp_year] => 2020
+            [fingerprint] => JKGYOJFyFzY6bC5y
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => Timothy Johnson
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+09-27-2016 @ 14:48:52 - Successful charge: ch_18yQdKDpk0ZqXzGbPCqiO2Gq
+09-30-2016 @ 14:15:40 - customers/cus_8b1KjF9iWEhjPg/sources request: Array
+(
+    [limit] => 100
+)
+
+09-30-2016 @ 14:15:40 - customers/cus_8b1KjF9iWEhjPg request: Array
+(
+    [default_source] => card_18JpHsDpk0ZqXzGbn7yPxCrO
+)
+
+09-30-2016 @ 14:15:43 - customers/cus_8b1KjF9iWEhjPg/sources request: Array
+(
+    [limit] => 100
+)
+
+09-30-2016 @ 16:38:47 - customers request: Array
+(
+    [email] => sdiamond@scitent.com
+    [description] => sdiamond
+)
+
+09-30-2016 @ 16:38:47 - customers/cus_9I82GcuBSnOoWR/sources request: Array
+(
+    [source] => tok_18zXlaDpk0ZqXzGbW3hJpnSy
+)
+
+09-30-2016 @ 16:38:48 - customers/cus_9I82GcuBSnOoWR request: Array
+(
+    [default_source] => card_18zXlZDpk0ZqXzGbiY3VapJN
+)
+
+09-30-2016 @ 16:38:48 - Info: Begin processing payment for order 7167 for the amount of 608.7
+09-30-2016 @ 16:38:48 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 60870
+    [description] => AAAS Staging - Order 7167
+    [capture] => true
+    [expand[]] => balance_transaction
+    [customer] => cus_9I82GcuBSnOoWR
+    [source] => card_18zXlZDpk0ZqXzGbiY3VapJN
+)
+
+09-30-2016 @ 16:38:49 - Processing response: stdClass Object
+(
+    [id] => ch_18zXmPDpk0ZqXzGb7lcm0qNz
+    [object] => charge
+    [amount] => 60870
+    [amount_refunded] => 0
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_18zXmPDpk0ZqXzGbvSxIqOFr
+            [object] => balance_transaction
+            [amount] => 60870
+            [available_on] => 1475539200
+            [created] => 1475267929
+            [currency] => usd
+            [description] => AAAS Staging - Order 7167
+            [fee] => 1795
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 1795
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 59075
+            [source] => ch_18zXmPDpk0ZqXzGb7lcm0qNz
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_18zXmPDpk0ZqXzGb7lcm0qNz
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1475267929
+    [currency] => usd
+    [customer] => cus_9I82GcuBSnOoWR
+    [description] => AAAS Staging - Order 7167
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_18zXmPDpk0ZqXzGb7lcm0qNz/refunds
+        )
+
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_18zXlZDpk0ZqXzGbiY3VapJN
+            [object] => card
+            [address_city] => cville
+            [address_country] => US
+            [address_line1] => 400 preston
+            [address_line1_check] => pass
+            [address_line2] => 300
+            [address_state] => VA
+            [address_zip] => 22903
+            [address_zip_check] => pass
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_9I82GcuBSnOoWR
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 12
+            [exp_year] => 2021
+            [fingerprint] => JKGYOJFyFzY6bC5y
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => shayna diamond
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+09-30-2016 @ 16:38:51 - Successful charge: ch_18zXmPDpk0ZqXzGb7lcm0qNz
+10-03-2016 @ 10:39:50 - customers/cus_8bsQjAHEAl7ejN/sources request: Array
+(
+    [limit] => 100
+)
+
+10-03-2016 @ 10:40:10 - Info: Begin processing payment for order 7169 for the amount of 1
+10-03-2016 @ 10:40:10 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 100
+    [description] => AAAS Staging - Order 7169
+    [capture] => true
+    [expand[]] => balance_transaction
+    [customer] => cus_8bsQjAHEAl7ejN
+    [source] => card_18KefbDpk0ZqXzGbgaqaD93A
+)
+
+10-03-2016 @ 10:40:11 - Processing response: stdClass Object
+(
+    [id] => ch_190XbyDpk0ZqXzGbd4vbFxZU
+    [object] => charge
+    [amount] => 100
+    [amount_refunded] => 0
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_190XbyDpk0ZqXzGbXhvUjxsh
+            [object] => balance_transaction
+            [amount] => 100
+            [available_on] => 1475625600
+            [created] => 1475505610
+            [currency] => usd
+            [description] => AAAS Staging - Order 7169
+            [fee] => 33
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 33
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 67
+            [source] => ch_190XbyDpk0ZqXzGbd4vbFxZU
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_190XbyDpk0ZqXzGbd4vbFxZU
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1475505610
+    [currency] => usd
+    [customer] => cus_8bsQjAHEAl7ejN
+    [description] => AAAS Staging - Order 7169
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_190XbyDpk0ZqXzGbd4vbFxZU/refunds
+        )
+
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_18KefbDpk0ZqXzGbgaqaD93A
+            [object] => card
+            [address_city] => Charlottesville
+            [address_country] => US
+            [address_line1] => 1033 Still Meadow Xing
+            [address_line1_check] => pass
+            [address_line2] => 
+            [address_state] => VA
+            [address_zip] => 22901
+            [address_zip_check] => pass
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_8bsQjAHEAl7ejN
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 4
+            [exp_year] => 2020
+            [fingerprint] => JKGYOJFyFzY6bC5y
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => Timothy Johnson
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+10-03-2016 @ 10:40:12 - Successful charge: ch_190XbyDpk0ZqXzGbd4vbFxZU
+10-03-2016 @ 10:41:32 - Info: Begin processing payment for order 7170 for the amount of 1
+10-03-2016 @ 10:41:32 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 100
+    [description] => AAAS Staging - Order 7170
+    [capture] => true
+    [expand[]] => balance_transaction
+    [customer] => cus_8bsQjAHEAl7ejN
+    [source] => card_18KefbDpk0ZqXzGbgaqaD93A
+)
+
+10-03-2016 @ 10:41:32 - Processing response: stdClass Object
+(
+    [id] => ch_190XdIDpk0ZqXzGb5e86Ux3m
+    [object] => charge
+    [amount] => 100
+    [amount_refunded] => 0
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_190XdIDpk0ZqXzGbZfShAer3
+            [object] => balance_transaction
+            [amount] => 100
+            [available_on] => 1475625600
+            [created] => 1475505692
+            [currency] => usd
+            [description] => AAAS Staging - Order 7170
+            [fee] => 33
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 33
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 67
+            [source] => ch_190XdIDpk0ZqXzGb5e86Ux3m
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_190XdIDpk0ZqXzGb5e86Ux3m
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1475505692
+    [currency] => usd
+    [customer] => cus_8bsQjAHEAl7ejN
+    [description] => AAAS Staging - Order 7170
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_190XdIDpk0ZqXzGb5e86Ux3m/refunds
+        )
+
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_18KefbDpk0ZqXzGbgaqaD93A
+            [object] => card
+            [address_city] => Charlottesville
+            [address_country] => US
+            [address_line1] => 1033 Still Meadow Xing
+            [address_line1_check] => pass
+            [address_line2] => 
+            [address_state] => VA
+            [address_zip] => 22901
+            [address_zip_check] => pass
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_8bsQjAHEAl7ejN
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 4
+            [exp_year] => 2020
+            [fingerprint] => JKGYOJFyFzY6bC5y
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => Timothy Johnson
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+10-03-2016 @ 10:41:34 - Successful charge: ch_190XdIDpk0ZqXzGb5e86Ux3m
+10-03-2016 @ 10:43:01 - Info: Begin processing payment for order 7171 for the amount of 1
+10-03-2016 @ 10:43:01 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 100
+    [description] => AAAS Staging - Order 7171
+    [capture] => true
+    [expand[]] => balance_transaction
+    [customer] => cus_8bsQjAHEAl7ejN
+    [source] => card_18KefbDpk0ZqXzGbgaqaD93A
+)
+
+10-03-2016 @ 10:43:02 - Processing response: stdClass Object
+(
+    [id] => ch_190XejDpk0ZqXzGbtCd9v1PJ
+    [object] => charge
+    [amount] => 100
+    [amount_refunded] => 0
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_190XekDpk0ZqXzGbVKC9LsYQ
+            [object] => balance_transaction
+            [amount] => 100
+            [available_on] => 1475625600
+            [created] => 1475505781
+            [currency] => usd
+            [description] => AAAS Staging - Order 7171
+            [fee] => 33
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 33
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 67
+            [source] => ch_190XejDpk0ZqXzGbtCd9v1PJ
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_190XejDpk0ZqXzGbtCd9v1PJ
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1475505781
+    [currency] => usd
+    [customer] => cus_8bsQjAHEAl7ejN
+    [description] => AAAS Staging - Order 7171
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_190XejDpk0ZqXzGbtCd9v1PJ/refunds
+        )
+
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_18KefbDpk0ZqXzGbgaqaD93A
+            [object] => card
+            [address_city] => Charlottesville
+            [address_country] => US
+            [address_line1] => 1033 Still Meadow Xing
+            [address_line1_check] => pass
+            [address_line2] => 
+            [address_state] => VA
+            [address_zip] => 22901
+            [address_zip_check] => pass
+            [brand] => Visa
+            [country] => US
+            [customer] => cus_8bsQjAHEAl7ejN
+            [cvc_check] => 
+            [dynamic_last4] => 
+            [exp_month] => 4
+            [exp_year] => 2020
+            [fingerprint] => JKGYOJFyFzY6bC5y
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => Timothy Johnson
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+10-03-2016 @ 10:43:03 - Successful charge: ch_190XejDpk0ZqXzGbtCd9v1PJ
+10-03-2016 @ 11:47:02 - customers/cus_8b1KjF9iWEhjPg/sources request: Array
+(
+    [limit] => 100
+)
+

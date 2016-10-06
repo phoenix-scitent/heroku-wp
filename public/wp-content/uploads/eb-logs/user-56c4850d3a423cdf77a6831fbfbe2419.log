@@ -1,0 +1,368 @@
+05-03-2016 @ 10:32:06 - Check Line Items for Order ID - 6755
+05-03-2016 @ 10:32:06 - Courses IDs from Line Items  a:0:{}
+05-03-2016 @ 10:37:41 - Initiating course & category sync process....
+05-03-2016 @ 10:45:57 - Initiating course & category sync process....
+05-03-2016 @ 10:47:37 - Link Moodle User for User ID  150
+05-03-2016 @ 10:47:37 - Start creating/updating moodle user, Updating: 0
+05-03-2016 @ 10:47:37 - Checking if username exists....
+05-03-2016 @ 10:47:38 - Check Line Items for Order ID - 6764
+05-03-2016 @ 10:47:38 - Courses IDs from Line Items  a:1:{i:0;s:4:"6763";}
+05-03-2016 @ 10:47:38 - Associated moodle a/c found? :Yes, Moodle user ID is: 17
+05-03-2016 @ 10:47:38 - Course IDs: a:1:{i:0;s:4:"6763";}
+05-03-2016 @ 10:47:38 - Respective moodle course IDs: a:1:{i:0;s:2:"10";}
+05-03-2016 @ 10:47:38 - 
+
+05-03-2016 @ 10:47:38 - User enrolled for courses - a:1:{i:0;s:4:"6763";}
+05-03-2016 @ 10:48:29 - Link Moodle User for User ID  150
+05-03-2016 @ 10:48:29 - Check Line Items for Order ID - 6765
+05-03-2016 @ 10:48:29 - Courses IDs from Line Items  a:1:{i:0;s:4:"6762";}
+05-03-2016 @ 10:48:29 - Associated moodle a/c found? :Yes, Moodle user ID is: 17
+05-03-2016 @ 10:48:29 - Course IDs: a:1:{i:0;s:4:"6762";}
+05-03-2016 @ 10:48:29 - Respective moodle course IDs: a:1:{i:0;s:1:"9";}
+05-03-2016 @ 10:48:29 - 
+
+05-03-2016 @ 10:48:29 - User enrolled for courses - a:1:{i:0;s:4:"6762";}
+05-03-2016 @ 11:58:35 - Link Moodle User for User ID  151
+05-03-2016 @ 11:58:35 - Start creating/updating moodle user, Updating: 0
+05-03-2016 @ 11:58:35 - Checking if username exists....
+05-03-2016 @ 11:58:36 - Check Line Items for Order ID - 6766
+05-03-2016 @ 11:58:36 - Courses IDs from Line Items  a:1:{i:0;s:4:"6762";}
+05-03-2016 @ 11:58:36 - Associated moodle a/c found? :Yes, Moodle user ID is: 18
+05-03-2016 @ 11:58:36 - Course IDs: a:1:{i:0;s:4:"6762";}
+05-03-2016 @ 11:58:36 - Respective moodle course IDs: a:1:{i:0;s:1:"9";}
+05-03-2016 @ 11:58:36 - 
+
+05-03-2016 @ 11:58:36 - User enrolled for courses - a:1:{i:0;s:4:"6762";}
+05-03-2016 @ 12:15:37 - Link Moodle User for User ID  152
+05-03-2016 @ 12:15:37 - Start creating/updating moodle user, Updating: 0
+05-03-2016 @ 12:15:37 - Checking if username exists....
+05-03-2016 @ 12:15:40 - Check Line Items for Order ID - 6767
+05-03-2016 @ 12:15:40 - Courses IDs from Line Items  a:1:{i:0;s:4:"6762";}
+05-03-2016 @ 12:15:40 - Associated moodle a/c found? :Yes, Moodle user ID is: 19
+05-03-2016 @ 12:15:40 - Course IDs: a:1:{i:0;s:4:"6762";}
+05-03-2016 @ 12:15:40 - Respective moodle course IDs: a:1:{i:0;s:1:"9";}
+05-03-2016 @ 12:15:40 - 
+
+05-03-2016 @ 12:15:40 - User enrolled for courses - a:1:{i:0;s:4:"6762";}
+05-03-2016 @ 12:30:36 - Link Moodle User for User ID  153
+05-03-2016 @ 12:30:36 - Start creating/updating moodle user, Updating: 0
+05-03-2016 @ 12:30:36 - Checking if username exists....
+05-03-2016 @ 12:30:37 - Check Line Items for Order ID - 6768
+05-03-2016 @ 12:30:37 - Courses IDs from Line Items  a:1:{i:0;s:4:"6762";}
+05-03-2016 @ 12:30:37 - Associated moodle a/c found? :Yes, Moodle user ID is: 20
+05-03-2016 @ 12:30:37 - Course IDs: a:1:{i:0;s:4:"6762";}
+05-03-2016 @ 12:30:37 - Respective moodle course IDs: a:1:{i:0;s:1:"9";}
+05-03-2016 @ 12:30:37 - 
+
+05-03-2016 @ 12:30:37 - User enrolled for courses - a:1:{i:0;s:4:"6762";}
+05-03-2016 @ 12:32:09 - Link Moodle User for User ID  153
+05-03-2016 @ 12:32:09 - Check Line Items for Order ID - 6769
+05-03-2016 @ 12:32:09 - Courses IDs from Line Items  a:1:{i:0;s:4:"6763";}
+05-03-2016 @ 12:32:09 - Associated moodle a/c found? :Yes, Moodle user ID is: 20
+05-03-2016 @ 12:32:09 - Course IDs: a:1:{i:0;s:4:"6763";}
+05-03-2016 @ 12:32:09 - Respective moodle course IDs: a:1:{i:0;s:2:"10";}
+05-03-2016 @ 12:32:09 - 
+
+05-03-2016 @ 12:32:09 - User enrolled for courses - a:1:{i:0;s:4:"6763";}
+05-03-2016 @ 15:15:34 - Link Moodle User for User ID  154
+05-03-2016 @ 15:15:34 - Start creating/updating moodle user, Updating: 0
+05-03-2016 @ 15:15:34 - Checking if username exists....
+05-03-2016 @ 15:15:35 - Check Line Items for Order ID - 6772
+05-03-2016 @ 15:15:35 - Courses IDs from Line Items  a:1:{i:0;s:4:"6762";}
+05-03-2016 @ 15:15:35 - Associated moodle a/c found? :Yes, Moodle user ID is: 21
+05-03-2016 @ 15:15:35 - Course IDs: a:1:{i:0;s:4:"6762";}
+05-03-2016 @ 15:15:35 - Respective moodle course IDs: a:1:{i:0;s:1:"9";}
+05-03-2016 @ 15:15:35 - 
+
+05-03-2016 @ 15:15:35 - User enrolled for courses - a:1:{i:0;s:4:"6762";}
+05-04-2016 @ 04:57:06 - Link Moodle User for User ID  155
+05-04-2016 @ 04:57:06 - Start creating/updating moodle user, Updating: 0
+05-04-2016 @ 04:57:06 - Checking if username exists....
+05-04-2016 @ 10:51:50 - Link Moodle User for User ID  156
+05-04-2016 @ 10:51:50 - Start creating/updating moodle user, Updating: 0
+05-04-2016 @ 10:51:50 - Checking if username exists....
+05-04-2016 @ 12:39:06 - Link Moodle User for User ID  157
+05-04-2016 @ 12:39:06 - Start creating/updating moodle user, Updating: 0
+05-04-2016 @ 12:39:06 - Checking if username exists....
+05-04-2016 @ 12:39:07 - Check Line Items for Order ID - 6776
+05-04-2016 @ 12:39:07 - Courses IDs from Line Items  a:1:{i:0;s:4:"6762";}
+05-04-2016 @ 12:39:07 - Associated moodle a/c found? :Yes, Moodle user ID is: 24
+05-04-2016 @ 12:39:07 - Course IDs: a:1:{i:0;s:4:"6762";}
+05-04-2016 @ 12:39:07 - Respective moodle course IDs: a:1:{i:0;s:1:"9";}
+05-04-2016 @ 12:39:07 - 
+
+05-04-2016 @ 12:39:07 - User enrolled for courses - a:1:{i:0;s:4:"6762";}
+05-10-2016 @ 17:53:38 - Link Moodle User for User ID  158
+05-10-2016 @ 17:53:38 - Start creating/updating moodle user, Updating: 0
+05-10-2016 @ 17:53:38 - Checking if username exists....
+05-10-2016 @ 17:53:39 - Check Line Items for Order ID - 6778
+05-10-2016 @ 17:53:39 - Courses IDs from Line Items  a:1:{i:0;s:4:"6762";}
+05-10-2016 @ 17:53:39 - Associated moodle a/c found? :Yes, Moodle user ID is: 25
+05-10-2016 @ 17:53:39 - Course IDs: a:1:{i:0;s:4:"6762";}
+05-10-2016 @ 17:53:39 - Respective moodle course IDs: a:1:{i:0;s:1:"9";}
+05-10-2016 @ 17:53:39 - 
+
+05-10-2016 @ 17:53:39 - User enrolled for courses - a:1:{i:0;s:4:"6762";}
+05-10-2016 @ 18:02:02 - Link Moodle User for User ID  158
+05-10-2016 @ 18:02:02 - Check Line Items for Order ID - 6779
+05-10-2016 @ 18:02:02 - Courses IDs from Line Items  a:1:{i:0;s:4:"6763";}
+05-10-2016 @ 18:02:02 - Associated moodle a/c found? :Yes, Moodle user ID is: 25
+05-10-2016 @ 18:02:02 - Course IDs: a:1:{i:0;s:4:"6763";}
+05-10-2016 @ 18:02:02 - Respective moodle course IDs: a:1:{i:0;s:2:"10";}
+05-10-2016 @ 18:02:02 - 
+
+05-10-2016 @ 18:02:02 - User enrolled for courses - a:1:{i:0;s:4:"6763";}
+05-10-2016 @ 19:25:51 - Link Moodle User for User ID  159
+05-10-2016 @ 19:25:51 - Start creating/updating moodle user, Updating: 0
+05-10-2016 @ 19:25:51 - Checking if username exists....
+05-10-2016 @ 19:25:52 - Check Line Items for Order ID - 6781
+05-10-2016 @ 19:25:52 - Courses IDs from Line Items  a:1:{i:0;s:4:"6762";}
+05-10-2016 @ 19:25:52 - Associated moodle a/c found? :Yes, Moodle user ID is: 26
+05-10-2016 @ 19:25:52 - Course IDs: a:1:{i:0;s:4:"6762";}
+05-10-2016 @ 19:25:52 - Respective moodle course IDs: a:1:{i:0;s:1:"9";}
+05-10-2016 @ 19:25:52 - 
+
+05-10-2016 @ 19:25:52 - User enrolled for courses - a:1:{i:0;s:4:"6762";}
+05-10-2016 @ 20:05:04 - Link Moodle User for User ID  159
+05-10-2016 @ 20:05:04 - Check Line Items for Order ID - 6782
+05-10-2016 @ 20:05:04 - Courses IDs from Line Items  a:1:{i:0;s:4:"6763";}
+05-10-2016 @ 20:05:04 - Associated moodle a/c found? :Yes, Moodle user ID is: 26
+05-10-2016 @ 20:05:04 - Course IDs: a:1:{i:0;s:4:"6763";}
+05-10-2016 @ 20:05:04 - Respective moodle course IDs: a:1:{i:0;s:2:"10";}
+05-10-2016 @ 20:05:04 - 
+
+05-10-2016 @ 20:05:04 - User enrolled for courses - a:1:{i:0;s:4:"6763";}
+05-10-2016 @ 20:13:04 - Link Moodle User for User ID  160
+05-10-2016 @ 20:13:04 - Start creating/updating moodle user, Updating: 0
+05-10-2016 @ 20:13:04 - Checking if username exists....
+05-10-2016 @ 20:13:05 - Check Line Items for Order ID - 6783
+05-10-2016 @ 20:13:05 - Courses IDs from Line Items  a:1:{i:0;s:4:"6762";}
+05-10-2016 @ 20:13:05 - Associated moodle a/c found? :Yes, Moodle user ID is: 27
+05-10-2016 @ 20:13:05 - Course IDs: a:1:{i:0;s:4:"6762";}
+05-10-2016 @ 20:13:05 - Respective moodle course IDs: a:1:{i:0;s:1:"9";}
+05-10-2016 @ 20:13:05 - 
+
+05-10-2016 @ 20:13:05 - User enrolled for courses - a:1:{i:0;s:4:"6762";}
+05-10-2016 @ 20:13:05 - User enrolled with key - N82Y920LN
+05-10-2016 @ 20:22:42 - Link Moodle User for User ID  160
+05-10-2016 @ 20:22:43 - Check Line Items for Order ID - 6784
+05-10-2016 @ 20:22:43 - Courses IDs from Line Items  a:1:{i:0;s:4:"6763";}
+05-10-2016 @ 20:22:43 - Associated moodle a/c found? :Yes, Moodle user ID is: 27
+05-10-2016 @ 20:22:43 - Course IDs: a:1:{i:0;s:4:"6763";}
+05-10-2016 @ 20:22:43 - Respective moodle course IDs: a:1:{i:0;s:2:"10";}
+05-10-2016 @ 20:22:43 - 
+
+05-10-2016 @ 20:22:43 - User enrolled for courses - a:1:{i:0;s:4:"6763";}
+05-10-2016 @ 20:22:43 - User enrolled with key - 2VVB7XM3Y
+05-10-2016 @ 20:30:59 - Link Moodle User for User ID  160
+05-10-2016 @ 20:30:59 - Check Line Items for Order ID - 6785
+05-10-2016 @ 20:30:59 - Courses IDs from Line Items  a:1:{i:0;s:4:"6762";}
+05-10-2016 @ 20:30:59 - Associated moodle a/c found? :Yes, Moodle user ID is: 27
+05-10-2016 @ 20:30:59 - Course IDs: a:1:{i:0;s:4:"6762";}
+05-10-2016 @ 20:30:59 - Respective moodle course IDs: a:1:{i:0;s:1:"9";}
+05-10-2016 @ 20:30:59 - 
+
+05-10-2016 @ 20:30:59 - User enrolled for courses - a:1:{i:0;s:4:"6762";}
+05-10-2016 @ 20:30:59 - User enrolled with key - FVKAZCE2B
+05-10-2016 @ 20:38:21 - Link Moodle User for User ID  160
+05-10-2016 @ 20:38:21 - Check Line Items for Order ID - 6786
+05-10-2016 @ 20:38:21 - Courses IDs from Line Items  a:1:{i:0;s:4:"6762";}
+05-10-2016 @ 20:38:21 - Associated moodle a/c found? :Yes, Moodle user ID is: 27
+05-10-2016 @ 20:38:21 - Course IDs: a:1:{i:0;s:4:"6762";}
+05-10-2016 @ 20:38:21 - Respective moodle course IDs: a:1:{i:0;s:1:"9";}
+05-10-2016 @ 20:38:21 - 
+
+05-10-2016 @ 20:38:21 - User enrolled for courses - a:1:{i:0;s:4:"6762";}
+05-10-2016 @ 20:38:21 - User enrolled with key - VWBKP8Z5G
+05-11-2016 @ 08:58:05 - Link Moodle User for User ID  160
+05-11-2016 @ 08:58:06 - Check Line Items for Order ID - 6787
+05-11-2016 @ 08:58:06 - Courses IDs from Line Items  a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 08:58:06 - Associated moodle a/c found? :Yes, Moodle user ID is: 27
+05-11-2016 @ 08:58:06 - Course IDs: a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 08:58:06 - Respective moodle course IDs: a:1:{i:0;s:2:"10";}
+05-11-2016 @ 08:58:06 - 
+
+05-11-2016 @ 08:58:06 - User enrolled for courses - a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 08:58:06 - User enrolled with key - 47MLBSBBD
+05-11-2016 @ 09:01:01 - Link Moodle User for User ID  160
+05-11-2016 @ 09:01:01 - Check Line Items for Order ID - 6788
+05-11-2016 @ 09:01:01 - Courses IDs from Line Items  a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 09:01:01 - Associated moodle a/c found? :Yes, Moodle user ID is: 27
+05-11-2016 @ 09:01:01 - Course IDs: a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 09:01:01 - Respective moodle course IDs: a:1:{i:0;s:2:"10";}
+05-11-2016 @ 09:01:01 - 
+
+05-11-2016 @ 09:01:01 - User enrolled for courses - a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 09:01:01 - User enrolled with key - 8YM3V6M3A
+05-11-2016 @ 09:23:39 - Link Moodle User for User ID  160
+05-11-2016 @ 09:23:39 - Check Line Items for Order ID - 6789
+05-11-2016 @ 09:23:39 - Courses IDs from Line Items  a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 09:23:39 - Associated moodle a/c found? :Yes, Moodle user ID is: 27
+05-11-2016 @ 09:23:39 - Course IDs: a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 09:23:39 - Respective moodle course IDs: a:1:{i:0;s:2:"10";}
+05-11-2016 @ 09:23:39 - 
+
+05-11-2016 @ 09:23:41 - User enrolled for courses - a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 09:23:41 - User enrolled with key - VKMLKMKAB
+05-11-2016 @ 09:24:45 - Link Moodle User for User ID  160
+05-11-2016 @ 09:24:45 - Check Line Items for Order ID - 6790
+05-11-2016 @ 09:24:45 - Courses IDs from Line Items  a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 09:24:45 - Associated moodle a/c found? :Yes, Moodle user ID is: 27
+05-11-2016 @ 09:24:45 - Course IDs: a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 09:24:45 - Respective moodle course IDs: a:1:{i:0;s:2:"10";}
+05-11-2016 @ 09:24:45 - 
+
+05-11-2016 @ 09:24:45 - User enrolled for courses - a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 09:24:45 - User enrolled with key - 9W5C9BYMH
+05-11-2016 @ 09:35:52 - Link Moodle User for User ID  160
+05-11-2016 @ 09:35:53 - Check Line Items for Order ID - 6791
+05-11-2016 @ 09:35:53 - Courses IDs from Line Items  a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 09:35:53 - Associated moodle a/c found? :Yes, Moodle user ID is: 27
+05-11-2016 @ 09:35:53 - Course IDs: a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 09:35:53 - Respective moodle course IDs: a:1:{i:0;s:2:"10";}
+05-11-2016 @ 09:35:53 - 
+
+05-11-2016 @ 09:35:53 - User enrolled for courses - a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 09:35:53 - User enrolled with key - TMHDD7WYM
+05-11-2016 @ 09:38:08 - Link Moodle User for User ID  160
+05-11-2016 @ 09:38:08 - Check Line Items for Order ID - 6792
+05-11-2016 @ 09:38:08 - Courses IDs from Line Items  a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 09:38:08 - Associated moodle a/c found? :Yes, Moodle user ID is: 27
+05-11-2016 @ 09:38:08 - Course IDs: a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 09:38:08 - Respective moodle course IDs: a:1:{i:0;s:2:"10";}
+05-11-2016 @ 09:38:08 - 
+
+05-11-2016 @ 09:38:08 - User enrolled for courses - a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 09:38:08 - User enrolled with key - 4S9TSHU2F
+05-11-2016 @ 09:39:42 - Link Moodle User for User ID  160
+05-11-2016 @ 09:39:42 - Check Line Items for Order ID - 6793
+05-11-2016 @ 09:39:42 - Courses IDs from Line Items  a:1:{i:0;s:4:"6762";}
+05-11-2016 @ 09:39:42 - Associated moodle a/c found? :Yes, Moodle user ID is: 27
+05-11-2016 @ 09:39:42 - Course IDs: a:1:{i:0;s:4:"6762";}
+05-11-2016 @ 09:39:42 - Respective moodle course IDs: a:1:{i:0;s:1:"9";}
+05-11-2016 @ 09:39:42 - 
+
+05-11-2016 @ 09:39:42 - User enrolled for courses - a:1:{i:0;s:4:"6762";}
+05-11-2016 @ 09:39:42 - User enrolled with key - Y56ZVTK0S
+05-11-2016 @ 15:03:38 - Link Moodle User for User ID  160
+05-11-2016 @ 15:03:38 - Check Line Items for Order ID - 6794
+05-11-2016 @ 15:03:38 - Courses IDs from Line Items  a:1:{i:0;s:4:"6762";}
+05-11-2016 @ 15:03:38 - Associated moodle a/c found? :Yes, Moodle user ID is: 27
+05-11-2016 @ 15:03:38 - Course IDs: a:1:{i:0;s:4:"6762";}
+05-11-2016 @ 15:03:38 - Respective moodle course IDs: a:1:{i:0;s:1:"9";}
+05-11-2016 @ 15:03:38 - 
+
+05-11-2016 @ 15:03:38 - User enrolled for courses - a:1:{i:0;s:4:"6762";}
+05-11-2016 @ 15:03:38 - User enrolled with key - JCKMR0SU3
+05-11-2016 @ 15:04:45 - Link Moodle User for User ID  160
+05-11-2016 @ 15:04:45 - Check Line Items for Order ID - 6795
+05-11-2016 @ 15:04:45 - Courses IDs from Line Items  a:1:{i:0;s:4:"6762";}
+05-11-2016 @ 15:04:45 - Associated moodle a/c found? :Yes, Moodle user ID is: 27
+05-11-2016 @ 15:04:45 - Course IDs: a:1:{i:0;s:4:"6762";}
+05-11-2016 @ 15:04:45 - Respective moodle course IDs: a:1:{i:0;s:1:"9";}
+05-11-2016 @ 15:04:45 - 
+
+05-11-2016 @ 15:04:45 - User enrolled for courses - a:1:{i:0;s:4:"6762";}
+05-11-2016 @ 15:04:45 - User enrolled with key - G3B2ZE4ZJ
+05-11-2016 @ 15:13:45 - Link Moodle User for User ID  160
+05-11-2016 @ 15:13:45 - Check Line Items for Order ID - 6796
+05-11-2016 @ 15:13:45 - Courses IDs from Line Items  a:1:{i:0;s:4:"6762";}
+05-11-2016 @ 15:13:45 - Associated moodle a/c found? :Yes, Moodle user ID is: 27
+05-11-2016 @ 15:13:45 - Course IDs: a:1:{i:0;s:4:"6762";}
+05-11-2016 @ 15:13:45 - Respective moodle course IDs: a:1:{i:0;s:1:"9";}
+05-11-2016 @ 15:13:45 - 
+
+05-11-2016 @ 15:13:45 - User enrolled for courses - a:1:{i:0;s:4:"6762";}
+05-11-2016 @ 15:13:45 - User enrolled with key - DJ1AX8VDM
+05-11-2016 @ 15:39:32 - Link Moodle User for User ID  160
+05-11-2016 @ 15:39:32 - Check Line Items for Order ID - 6797
+05-11-2016 @ 15:39:32 - Courses IDs from Line Items  a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 15:39:32 - Associated moodle a/c found? :Yes, Moodle user ID is: 27
+05-11-2016 @ 15:39:32 - Course IDs: a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 15:39:32 - Respective moodle course IDs: a:1:{i:0;s:2:"10";}
+05-11-2016 @ 15:39:32 - 
+
+05-11-2016 @ 15:39:32 - User enrolled for courses - a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 15:39:32 - User enrolled with key - 2L726MU9S
+05-11-2016 @ 15:46:51 - Link Moodle User for User ID  160
+05-11-2016 @ 15:46:51 - Check Line Items for Order ID - 6798
+05-11-2016 @ 15:46:51 - Courses IDs from Line Items  a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 15:46:51 - Associated moodle a/c found? :Yes, Moodle user ID is: 27
+05-11-2016 @ 15:46:51 - Course IDs: a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 15:46:51 - Respective moodle course IDs: a:1:{i:0;s:2:"10";}
+05-11-2016 @ 15:46:51 - 
+
+05-11-2016 @ 15:46:51 - User enrolled for courses - a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 15:46:51 - User enrolled with key - WJJ3ENW1J
+05-11-2016 @ 15:47:27 - Link Moodle User for User ID  160
+05-11-2016 @ 15:47:27 - Check Line Items for Order ID - 6799
+05-11-2016 @ 15:47:27 - Courses IDs from Line Items  a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 15:47:27 - Associated moodle a/c found? :Yes, Moodle user ID is: 27
+05-11-2016 @ 15:47:27 - Course IDs: a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 15:47:27 - Respective moodle course IDs: a:1:{i:0;s:2:"10";}
+05-11-2016 @ 15:47:27 - 
+
+05-11-2016 @ 15:47:27 - User enrolled for courses - a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 15:47:27 - User enrolled with key - D4KP8AT2L
+05-11-2016 @ 15:50:09 - Link Moodle User for User ID  160
+05-11-2016 @ 15:50:14 - Check Line Items for Order ID - 6800
+05-11-2016 @ 15:50:14 - Courses IDs from Line Items  a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 15:50:14 - Associated moodle a/c found? :Yes, Moodle user ID is: 27
+05-11-2016 @ 15:50:14 - Course IDs: a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 15:50:14 - Respective moodle course IDs: a:1:{i:0;s:2:"10";}
+05-11-2016 @ 15:50:14 - 
+
+05-11-2016 @ 15:50:15 - User enrolled for courses - a:1:{i:0;s:4:"6763";}
+05-11-2016 @ 15:50:15 - User enrolled with key - AS0BFHFLG
+05-12-2016 @ 06:28:26 - Link Moodle User for User ID  161
+05-12-2016 @ 06:28:26 - Start creating/updating moodle user, Updating: 0
+05-12-2016 @ 06:28:26 - Checking if username exists....
+05-12-2016 @ 06:28:27 - Check Line Items for Order ID - 6801
+05-12-2016 @ 06:28:27 - Courses IDs from Line Items  a:1:{i:0;s:4:"6762";}
+05-12-2016 @ 06:28:27 - Associated moodle a/c found? :Yes, Moodle user ID is: 28
+05-12-2016 @ 06:28:27 - Course IDs: a:1:{i:0;s:4:"6762";}
+05-12-2016 @ 06:28:27 - Respective moodle course IDs: a:1:{i:0;s:1:"9";}
+05-12-2016 @ 06:28:27 - 
+
+05-12-2016 @ 06:28:27 - User enrolled for courses - a:1:{i:0;s:4:"6762";}
+05-12-2016 @ 06:28:27 - User enrolled with key - WG452H1FS
+05-12-2016 @ 06:48:55 - Link Moodle User for User ID  161
+05-12-2016 @ 06:48:55 - Check Line Items for Order ID - 6802
+05-12-2016 @ 06:48:55 - Courses IDs from Line Items  a:1:{i:0;s:4:"6763";}
+05-12-2016 @ 06:48:55 - Associated moodle a/c found? :Yes, Moodle user ID is: 28
+05-12-2016 @ 06:48:55 - Course IDs: a:1:{i:0;s:4:"6763";}
+05-12-2016 @ 06:48:55 - Respective moodle course IDs: a:1:{i:0;s:2:"10";}
+05-12-2016 @ 06:48:55 - 
+
+05-12-2016 @ 06:48:55 - User enrolled for courses - a:1:{i:0;s:4:"6763";}
+05-12-2016 @ 06:48:55 - User enrolled with key - VVRCSMGCF
+05-19-2016 @ 14:01:12 - Check Line Items for Order ID - 6825
+05-19-2016 @ 14:01:12 - Courses IDs from Line Items  a:0:{}
+05-19-2016 @ 14:22:34 - Check Line Items for Order ID - 6826
+05-19-2016 @ 14:22:34 - Courses IDs from Line Items  a:0:{}
+06-07-2016 @ 10:15:18 - Check Line Items for Order ID - 6843
+06-07-2016 @ 10:15:18 - Courses IDs from Line Items  a:0:{}
+06-07-2016 @ 10:36:33 - Check Line Items for Order ID - 6844
+06-07-2016 @ 10:36:33 - Courses IDs from Line Items  a:0:{}
+06-07-2016 @ 15:02:49 - Check Line Items for Order ID - 6858
+06-07-2016 @ 15:02:49 - Courses IDs from Line Items  a:0:{}
+06-07-2016 @ 17:05:53 - Check Line Items for Order ID - 6860
+06-07-2016 @ 17:05:53 - Courses IDs from Line Items  a:0:{}
+06-08-2016 @ 11:38:31 - Check Line Items for Order ID - 6869
+06-08-2016 @ 11:38:31 - Courses IDs from Line Items  a:0:{}
+06-08-2016 @ 12:25:54 - Check Line Items for Order ID - 6870
+06-08-2016 @ 12:25:54 - Courses IDs from Line Items  a:0:{}
+06-09-2016 @ 21:42:54 - Check Line Items for Order ID - 6874
+06-09-2016 @ 21:42:54 - Courses IDs from Line Items  a:0:{}
+06-10-2016 @ 10:29:45 - Check Line Items for Order ID - 6875
+06-10-2016 @ 10:29:45 - Courses IDs from Line Items  a:0:{}
+06-14-2016 @ 17:00:24 - Check Line Items for Order ID - 6881
+06-14-2016 @ 17:00:24 - Courses IDs from Line Items  a:0:{}
+06-29-2016 @ 15:21:23 - Check Line Items for Order ID - 6905
+06-29-2016 @ 15:21:23 - Courses IDs from Line Items  a:0:{}
+06-29-2016 @ 15:25:35 - Check Line Items for Order ID - 6906
+06-29-2016 @ 15:25:35 - Courses IDs from Line Items  a:0:{}
+06-29-2016 @ 15:40:22 - Check Line Items for Order ID - 6907
+06-29-2016 @ 15:40:22 - Courses IDs from Line Items  a:0:{}
+08-04-2016 @ 15:36:06 - Password update initiated..... 
+08-04-2016 @ 15:36:06 - A moodle user id is not associated.... Exiting!!!
